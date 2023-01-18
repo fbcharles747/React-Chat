@@ -109,7 +109,7 @@ body {
   align-items: center;
   justify-content: center;
   .container {
-    border: white 1px solid;
+    border: none;
     width: 65%;
     height: 80%;
     border-radius: 10px;
@@ -205,6 +205,26 @@ body {
         height: 30px;
         padding: 10px;
         background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        input {
+          width: 100%;
+          border: none;
+          outline: none;
+        }
+        .send {
+          display: flex;
+          gap: 10px;
+          button {
+            border: none;
+            background-color: #7474bb;
+            border-radius: 5px;
+            &:hover {
+              background-color: #a7bcec;
+            }
+          }
+        }
       }
     }
   }
